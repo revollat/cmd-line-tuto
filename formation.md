@@ -99,9 +99,9 @@ pwd
 
 whoami
 
-```date```
+date
 
-```cal```
+cal
 
 ```ps u```
 
@@ -115,17 +115,19 @@ whoami
 
 # Redirection et pipe
 
-## Pour rediriger la sortie d'une commande ">"
+## Pour rediriger la sortie d'une commande
 
-```ps ax >processes.txt```
+ps ax >processes.txt
 
-```ps ax >>processes.txt```
+ps ax >>processes.txt
 
-```ls -l > foo```
+ls -l > foo
 
 ## Redigier entrée d'une commande
 
-```less < foo```
+```
+less < foo
+```
 
 ## Pipe
 
