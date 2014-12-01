@@ -22,7 +22,7 @@
 
 Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additionnels" spécifiques aux logiciels installés (par exemple ligne de commande pour vider un cache varnish). Ces outils additionnels suivent en général la "philosophie Unix".
 
-## Ficheirs
+## Fichiers
 
 ```ls``` --- Lister vos fichiers
 ```ls -l``` --- version long format
@@ -33,6 +33,7 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 ```less filename``` --- visualiser un ficheir, page par page. Utilisez ```/pattern``` pour rechercher un mot
 
 ```tail filename.txt```
+
 ```tail -f log-file```
 
 ```mv filename1 filename2```
@@ -46,23 +47,31 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 ```wc filename``` --- compter les caractères, mots lignes d'un fichier
 
 ```chmod options filename```
+
 ```chmod 665 file.txt```
+
 ```chmod ug+rwx file.txt```
+
 ```chmod g-rwx file.txt```
 
 ```chown oracle:dba dbora.sh```
 
 ```gzip filename```
+
 ```gunzip filename```
 
 ## Dossiers
 
 ```mkdir dirname```
+
 ```mkdir des/sous/repetoires```
 
 ```cd /home/test```
+
 ```cd ../../dossier/test```
+
 ```cd dossier/relatif```
+
 ```cd -``` --- "naviguer" entre 2 dossiers
 
 ```pwd```
@@ -70,11 +79,15 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 ## Rechercher 
 
 ```grep string filename```
+
 ```grep -i "the" demo_file``` --- insensible à la case
+
 ```grep -r --include=*.twig "prod\.nice\.fr" .```
 
 ```find / -name "*the*"```
+
 ```find . -type f``` ---  fichiers régulier seulement, pas les dossiers, liens symboliques,binaires...
+
 ```find . -type f -exec sed -i 's/www.nice.fr/ancien.nice.fr/g' {} \;```
 
 ## Divers
@@ -100,7 +113,9 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 ## Pour rediriger la sortie d'une commande ">"
 
 ```ps ax >processes.txt```
+
 ```ps ax >>processes.txt``` --- ">>" = concaténation dans la sortie
+
 ```ls -l > foo```
 
 ## Redigier entrée d'une commande
@@ -151,7 +166,9 @@ Les scripts bash/zsh
 # Aide
 
 man wget
+
 wget -h
+
 apropos wget
 
 # Easter egg 
