@@ -18,6 +18,9 @@
 > Unix n'a pas été conçu pour empêcher ses utilisateurs de commettre des actes stupides, car cela les empêcherait aussi de réaliser des choses ingénieux.
 >  – Doug Gwyn
 
+> There are two major products that come out of Berkeley: LSD and [Unix] BSD. We don't believe this to be a coincidence.
+>  - Jeremy S. Anderson
+
 # Les commandes de base
 
 Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additionnels" spécifiques aux logiciels installés (par exemple ligne de commande pour vider un cache varnish). Ces outils additionnels suivent en général la "philosophie Unix".
