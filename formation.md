@@ -97,7 +97,7 @@ pwd
 
 ## Divers
 
-```whoami```
+whoami
 
 ```date```
 
