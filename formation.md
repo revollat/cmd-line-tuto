@@ -24,17 +24,17 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 
 ## Fichiers
 
-```ls``` --- Lister vos fichiers
+```ls``` Lister vos fichiers
 
-```ls -l``` --- version long format
+```ls -l``` version long format
 
 ```ls -lah```
 
-```ls -ltr``` --- date dernière modification en ordre inverse
+```ls -ltr``` date dernière modification en ordre inverse
 
 ```ls --help``` pour l'aide concise et ```man ls``` pour l'aide complète
 
-```less filename``` --- visualiser un ficheir, page par page. Utilisez ```/pattern``` pour rechercher un mot
+```less filename``` visualiser un ficheir, page par page. Utilisez ```/pattern``` pour rechercher un mot
 
 ```tail filename.txt```
 
@@ -48,7 +48,7 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 
 ```diff filename1 filename2```
 
-```wc filename``` --- compter les caractères, mots lignes d'un fichier
+```wc filename``` compter les caractères, mots lignes d'un fichier
 
 ```chmod options filename```
 
@@ -76,21 +76,21 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 
 ```cd dossier/relatif```
 
-```cd -``` --- "naviguer" entre 2 dossiers
+```cd - ``` naviguer entre 2 dossiers
 
 ```pwd```
 
-## Rechercher 
+## Rechercher
 
 ```grep string filename```
 
-```grep -i "the" demo_file``` --- insensible à la case
+```grep -i "the" demo_file``` insensible à la case
 
 ```grep -r --include=*.twig "prod\.nice\.fr" .```
 
 ```find / -name "*the*"```
 
-```find . -type f``` ---  fichiers régulier seulement, pas les dossiers, liens symboliques,binaires...
+```find . -type f``` fichiers régulier seulement, pas les dossiers, liens symboliques,binaires...
 
 ```find . -type f -exec sed -i 's/www.nice.fr/ancien.nice.fr/g' {} \;```
 
@@ -118,7 +118,7 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 
 ```ps ax >processes.txt```
 
-```ps ax >>processes.txt``` --- ">>" = concaténation dans la sortie
+```ps ax >>processes.txt```
 
 ```ls -l > foo```
 
@@ -155,11 +155,11 @@ On peut écrire : ```ls -l | less```
 
 ```docker ps -a --filter 'status=exited' | grep torbox | awk '{print $1}' | xargs --no-run-if-empty docker rm```
 
-```:(){ :|:& };:``` --- fork bomb, warning : n'essayez pas ça à la maison :)
+```:(){ :|:& };:``` fork bomb, warning : n'essayez pas ça à la maison :)
 
-```seq -f '4/%g' 1 2 99999 | paste -sd-+ | bc -l``` --- valeur approchée de pi
+```seq -f '4/%g' 1 2 99999 | paste -sd-+ | bc -l``` valeur approchée de pi
 
-```tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"``` --- maxtix en ligne de commande
+```tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"``` maxtix en ligne de commande
 
 ```find -not -empty -type f -printf "%s\n" | sort -rn | uniq -d | xargs -I{} -n1 find -type f -size {}c -print0 | xargs -0 md5sum | sort | uniq -w32 --all-repeated=separate```
 
