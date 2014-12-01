@@ -103,31 +103,29 @@ date
 
 cal
 
-```ps u```
+ps u
 
-```kill PID```
+kill PID
 
-```ftp hostname```
+ftp hostname
 
-```ssh hostname```
+ssh hostname
 
-```wget```
+wget
 
 # Redirection et pipe
 
 ## Pour rediriger la sortie d'une commande
 
-ps ax >processes.txt
+```ps ax >processes.txt```
 
-ps ax >>processes.txt
+```ps ax >>processes.txt```
 
-ls -l > foo
+```ls -l > foo```
 
 ## Redigier entrée d'une commande
 
-```
-less < foo
-```
+```less < foo```
 
 ## Pipe
 
@@ -139,6 +137,8 @@ less < foo
 ```
 
 On peut écrire : ```ls -l | less```
+
+Autres exemples :
 
 ```ps ax | grep java```
 
