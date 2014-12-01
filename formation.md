@@ -166,6 +166,8 @@ Autres exemples :
 
 ```find -not -empty -type f -printf "%s\n" | sort -rn | uniq -d | xargs -I{} -n1 find -type f -size {}c -print0 | xargs -0 md5sum | sort | uniq -w32 --all-repeated=separate``` trouver des fichiers en doulons basé sur contenu (md5)
 
+PLeins d'exemples marrant là :http://www.commandlinefu.com/commands/browse/sort-by-votes
+
 # Pour aller plus loin
 
 Les scripts bash/zsh
