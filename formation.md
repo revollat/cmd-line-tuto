@@ -178,6 +178,11 @@ wget -h
 
 apropos wget
 
+Tip of the day :
+
+```echo "Le saviez-vous ?" ; whatis $(ls /bin | shuf -n 1)```
+
+
 # Easter egg 
 
 ```apt-get moo```
