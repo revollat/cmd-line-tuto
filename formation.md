@@ -16,7 +16,7 @@
 
 >  *Henry Spencer*
 
-> Unix n'a pas été conçu pour empêcher ses utilisateurs de commettre des actes stupides, car cela les empêcherait aussi de réaliser des choses ingénieux.
+> Unix n'a pas été conçu pour empêcher ses utilisateurs de commettre des actes stupides, car cela les empêcherait aussi de réaliser des choses ingénieuses.
 
 >  *Doug Gwyn*
 
