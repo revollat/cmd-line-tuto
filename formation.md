@@ -25,9 +25,13 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 ## Fichiers
 
 ```ls``` --- Lister vos fichiers
+
 ```ls -l``` --- version long format
+
 ```ls -lah```
+
 ```ls -ltr``` --- date dernière modification en ordre inverse
+
 ```ls --help``` pour l'aide concise et ```man ls``` pour l'aide complète
 
 ```less filename``` --- visualiser un ficheir, page par page. Utilisez ```/pattern``` pour rechercher un mot
