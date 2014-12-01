@@ -199,4 +199,4 @@ http://ss64.com/bash/
 
 http://www.commandlinefu.com/
 
-
+![Image of Yaktocat](http://www.jimbrooks.org/humor/img/pictures_computers/BillGatesUsingLinux.jpg)
