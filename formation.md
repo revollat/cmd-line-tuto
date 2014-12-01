@@ -76,7 +76,7 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 
 ```cd dossier/relatif```
 
-```cd - ``` naviguer entre 2 dossiers
+```cd ``` naviguer entre 2 dossiers
 
 ```pwd```
 
