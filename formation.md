@@ -13,13 +13,13 @@
 ### Citations
 
 > Ceux qui ne comprennent pas Unix sont condamnés à le ré-inventer.
->  – Henry Spencer
+>  Henry Spencer
 
 > Unix n'a pas été conçu pour empêcher ses utilisateurs de commettre des actes stupides, car cela les empêcherait aussi de réaliser des choses ingénieux.
->  – Doug Gwyn
+>  Doug Gwyn
 
 > There are two major products that come out of Berkeley: LSD and [Unix] BSD. We don't believe this to be a coincidence.
->  - Jeremy S. Anderson
+>  Jeremy S. Anderson
 
 # Les commandes de base
 
