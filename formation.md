@@ -66,7 +66,7 @@ Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additio
 
 ## Dossiers
 
-```pwd```
+pwd
 
 ```mkdir dirname```
 
