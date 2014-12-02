@@ -20,6 +20,36 @@
 
 >  *Doug Gwyn*
 
+Le paradigme "UNIX" est éprouvé.
+De nombreuses technologies récentes adoptent cette approche (Ex.: Docker)
+
+l'histoire d'UNIX et de l'Internet sont très lié :
+Sur Internet on utilise TCP/IP pour communiquer, au coeur d'UNIX le même protocole est utilisé, via l'interface loopback (127.0.0.1)
+
+Depuis une adresse IP, on utilise les "ports TCP" sur l'Internet pour faire communiquer les machines, et sous UNIX pour faire parler les programmes entre eux.
+
+Quasi tous les OS modernes (Linux, Mac, Android, IOS,...) sont des UNIX-like (sauf ...)
+
+## Norme POSIX (1988), Pour standardiser l'Interface (API) UNIX :
+* Définition des programmes de bases
+* Organisation du système de fichiers (man hier)
+* et bien plus encore ...
+
+Sous "Zindow$" : utilisez "Cygwin" qui offre un compatilbilié POSIX.
+
+## Interpreteur de commandes
+
+Pour interagir avec l'OS on utilise un "Interpreteur" de commande,  Bash couramment utilisé, d'autres existent (zsh). 
+C'est un processus (exécuté sous un compte particulier) qui va "forker" les commandes (exécuter des processus enfants).
+Maintient de variables d'environnement, facilite la navigation dans le système de fichier, complétion auto des commandes, coloration sortie texte, scripting ....
+
+### Pourquoi utiliser la ligne de commande ?
+
+- On peut toujours effectuer des opérations sur un serveur, qui ne possède pas d'interface graphique (pour des raisons de performance, on n'installe pas la couche graphique)
+- Les mêmes commandes de base accessible sur différentes versions d'OS (normes POSIX obligent), on s'y retrouve facilement avec un peu d'habitude.
+- Les commandes sont facilement automatisables (cron, at) et "scriptable".
+- parce qu'on est des nerds :)
+
 # Les commandes de base
 
 Il y a les commandes "de base" des OS UNIX-like et il y a les commandes "additionnels" spécifiques aux logiciels installés (par exemple ligne de commande pour vider un cache varnish). Ces outils additionnels suivent en général la "philosophie Unix".
