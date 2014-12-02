@@ -145,6 +145,16 @@ ssh hostname
 
 wget
 
+socat
+
+netcat
+
+/dev/random
+
+/dev/null
+
+Control+C, Condtrol+D
+
 # Redirection et pipe
 
 ## Pour rediriger la sortie d'une commande
@@ -227,6 +237,10 @@ Autres exemples :
 PLeins d'exemples marrant là :http://www.commandlinefu.com/commands/browse/sort-by-votes
 
 # Pour aller plus loin
+
+screen
+
+editer des fichiers : écoles vi / emacs
 
 Les scripts bash/zsh
 
